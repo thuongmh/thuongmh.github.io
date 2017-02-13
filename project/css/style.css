@@ -1,0 +1,232 @@
+
+a:link { 
+	text-decoration: none; 
+} 
+a:visited { 
+	text-decoration: none; 
+} 
+a:hover { 
+	text-decoration: none; 
+} 
+a:active { 
+	text-decoration: none; 
+}
+li {
+	list-style-type:none;
+}
+button :visited { 
+	border: 0px;
+	border-radius: 0px;
+	background-color: transparent;
+} 
+button :hover { 
+	border: 0px;
+	border-radius: 0px;
+	background-color: transparent;
+} 
+button :active { 
+	background-color: transparent;
+	border: 0px; 
+	border-radius: 0px;
+}
+button:focus {
+	background-color: transparent;
+	border:0px;
+	border-radius: 0px;
+}
+.row .thumbnail:hover {
+	box-shadow: 0px 5px 31px -7px;
+}
+.laptop {
+	display: none;
+}
+
+.banner .col-md-8 .item h3 {
+	font-size: 15px;
+}
+.navbar-toggle {
+	float: left;
+	margin-left: 15px;
+}
+
+.search_mobile {
+	float: left;
+	margin: 8px;
+	background: transparent;
+	padding: 6px 10px;
+	border: 0px;
+
+}
+.search_mobile i {
+	font-size: 20px;
+}
+.shopping_mobile  {
+	float: right;
+	margin: 8px;
+	background: transparent;
+	padding: 6px 10px;
+	border: 0px;
+}
+
+.form-control:focus {
+	
+	border: 0px;
+	box-shadow: 0px;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+.navbar {
+	border-radius: 0px;
+	/*position: fixed;
+	z-index: 10000*/;
+	width: 100%;
+}
+.banner .col-md-4 {
+	display: none;
+}
+
+.mobile #menu-left {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: -250px;
+	padding: 0px;
+	width: 250px;
+	color: black; 
+	background-color: #fffdff;
+	z-index: 999;
+	margin: 0px;
+	transition: all 0.3s linear;
+}
+.navbar-collapse {
+	margin:0px;
+}
+#chanboba{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 0%;
+	left: 0;
+	z-index: 998;
+	background-color: rgba(11, 10, 10, 0.6);
+}
+.mobile #menu-left .logo-item {
+	width: 250px;
+	height: 100px;
+	background-color:#2d3e50;
+	margin-bottom: 5%;
+}
+.mobile #menu-left .logo-item img {
+	margin: auto auto;
+	height: 100px;
+}
+.thumbnail .caption h3 {
+	font-size: 18px;
+}
+#khoa-hoc {
+	padding: 25px;
+	padding-top:0px;
+}
+#khoa-hoc .thumbnail img {
+	margin: 0px;
+}
+.thumbnail .caption p {
+	/*	height: 73px;*/
+	overflow: hidden;
+}
+
+#khoa-hoc .col-md-12 {
+	text-align: center;
+}
+#myModal .modal-header {
+	background-color: #2d3e50;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+
+}
+#khoa-hoc .thumbnail .caption .footer-item {
+	padding: 10px 0px;
+}
+#khoa-hoc .title-item {
+	height: 40px;
+	overflow: hidden;
+}
+#khoa-hoc .item-image img {
+	width: 100%;
+}
+#khoa-hoc .class-item .courses-item .thumbnail {
+	padding:0px;
+}
+#khoa-hoc .courses-item .col-md-3 .thumbnail .item-review {
+	padding:10px 20px;
+} 
+#khoa-hoc .courses-item .col-md-3 .thumbnail .item-review h3 {
+	font-size: 18px;
+	font-weight: 700;
+	min-height: 50px;
+}
+#khoa-hoc .class-item h2 {
+	margin-top: 0px
+}
+
+{
+	margin: 15px;
+	text-align: center;
+}
+#khoa-hoc .courses-item .col-md-3 .thumbnail a span {
+	font-size: 20px;
+}
+@media (min-width: 865px) {
+	#item-khoa-hoc {
+		padding: 10px 25px;
+		text-align: center;
+	}
+	#item-khoa-hoc button {
+		border-radius: 0px;
+		height: 50px;
+		width: 10%;
+	}
+	#khoa-hoc .class-item {
+		padding-top: 30px;
+	}
+	#khoa-hoc .class-item .title-class {
+		padding:40px;
+	}
+	#khoa-hoc .class-item .courses-item {
+		padding-top: 20px;
+	}
+	.banner .col-md-8 .item h3 {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	.banner .row .col-md-8 {
+		margin-top: 0%;
+	}
+	#item-khoa-hoc {
+		padding: 10px;
+	}
+	a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	.banner {
+		margin-top: 70px;
+	}
+	.banner .col-md-4 {
+		display: block;
+	}
+	.mobile {
+		display: none;
+	}
+	.laptop {
+		display: block;
+	}
+	.navbar-form {
+		margin: 8px;
+	}
+
+
+	

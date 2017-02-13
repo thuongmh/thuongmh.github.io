@@ -1,0 +1,40 @@
+
+@media (min-width: 860px) {
+.wrap {
+	margin-top: 100px;
+}	
+.sidebar {
+	height: 500px;
+}
+.user-thongtin {
+	margin-top: 50px;
+}
+#logo-TK {
+	width: 200px;
+	height: 200px;
+/*	background-color: #17aa1c;*/
+}
+#logo-TK {
+	margin: auto;
+}
+.wrap .row .col-md-8 {
+	border: 1px solid #ddd;
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+}
+.thong-tin_TK .row {
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.thong-tin_TK .row .col-sm-2 {
+	padding: 10px;
+}
+.thong-tin_TK .row-footer {
+	padding: 20px;
+}
+.form-edit {
+	max-height: 400px;
+	overflow: scroll;
+}
+

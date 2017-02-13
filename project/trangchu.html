@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trang_chu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="plugin/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/rateit.js-master/scripts/rateit.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+	
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="laptop">
+			<div class="row">
+				<div class="top-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="top-header_contacts">
+									<span><i class="fa fa-phone"></i> (84) 09121006</span>
+								</div>
+								<div class="top-header_email">
+									<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+								</div>
+								<div class="header_login">
+									<a href="" data-toggle="modal" data-target="#myModal" id="icon-user"><i class="fa fa-user"></i>
+										<span> Đăng nhập</span>
+									</a>
+									<a href="" id="ten_URS">
+										
+									</a>
+									<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<ul class="nav nav-tabs user-password" role="tablist">
+														<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+														<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+													</ul>
+												</div>
+												<div class="modal-body">
+													<div class="tab-content">
+														<div role="tabpanel" class="tab-pane active" id="home">
+															<div class="form-horizontal">
+																<div class="form-group">
+																	<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+																	<div class="col-sm-10">
+																		<input type="email" class="form-control ten_HV" id="inputEmail3" placeholder="Email" >
+																	</div>
+																</div>
+																<div class="form-group">
+																	<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+																	<div class="col-sm-10">
+																		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<div class="checkbox">
+																			<label>
+																				<input type="checkbox"> Remember me
+																			</label>
+																		</div>
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<button class="btn btn-default"
+																		data-dismiss="modal" id="sign_in">Sign in</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div role="tabpanel" class="tab-pane" id="profile">
+															<form class="form-horizontal">
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+																	<div class="col-sm-9">
+																		<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label"></label>
+																	<div class="col-sm-9">
+																		<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+																	</div>
+																</div>
+
+															</form>
+														</div>
+													</div>
+
+												</div>
+
+												<div class="modal-footer" id="modal-footer.laptop">
+
+													<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+													<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-header">
+					<nav class="navbar navbar-default" id="menu-header-1">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand logo-laptop" href="#">
+									<img src="img/logo.png" class="img-responsive">
+								</a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="trangchu.html">Trang chủ</a></li>
+									<li><a href="index.html">Khóa học</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									
+									<li><a href="gioithieu.html">Giới thiệu</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="mobile">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false" id="icon-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<button class="search_mobile" id="search-mobile-2"><i class="fa fa-search"></i></button>
+							<div class="col-xs-12 search_mobile-0">
+								<div class="row">
+									<div class="col-xs-2 ">
+										<button class="search_mobile"><i class="fa fa-search"></i></button>
+									</div>
+									<div class="col-xs-8 input-search" >
+										<div class="form-group">
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="search">
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<button class="search_mobile" id="close-search-mobile"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+							</div>
+							<button class="shopping_mobile an_1" data-toggle="modal" data-target="#myModal2"><i class="fa fa-user " style="font-size: 23px"></i></button>
+							<div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<ul class="nav nav-tabs user-password" role="tablist">
+												<li role="presentation" class="active"><a href="#home1" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+												<li role="presentation"><a href="#profile1" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+											</ul>
+										</div>
+										<div class="modal-body">
+											<div class="tab-content">
+												<div role="tabpanel" class="tab-pane active" id="home1">
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+																<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="form-group">
+															<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+																<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<div class="checkbox">
+																	<label>
+																		<input type="checkbox"> Remember me
+																	</label>
+																</div>
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<button type="submit" class="btn btn-default">Sign in</button>
+															</div>
+														</div>
+													</form>
+												</div>
+												<div role="tabpanel" class="tab-pane" id="profile1">
+													<form class="form-horizontal">
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+															<div class="col-sm-9">
+																<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label"></label>
+															<div class="col-sm-9">
+																<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+															</div>
+														</div>
+
+													</form>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="modal-footer" id="modal-footer.laptop">
+
+											<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+											<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+										</div>
+									</div>
+								</div>
+							</div>	
+							<a class="navbar-brand menu-logo" href="#"><img src="img/logo.png" class="img-responsive logo"></a>
+						</div>
+						<div >
+							<ul class="nav navbar-nav" id ="menu-left">	
+								<div class="logo-item">
+									<img src="https://udemy-images.udemy.com/user/200_H/anonymous.png" class="img-responsive">
+								</div>
+								<li><a href="thongtintaikhoan.html">Tài khoản</a></li>
+								<li><a href="trangchu.html">Trang chủ</a></li>
+								<li><a href="index.html">Khóa học</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="gioithieu.html">Liên hệ</a></li>
+								<li><a href="chitiet_kh.html">Học thử</a></li>
+								<li><a href="#">Ebooks</a></li>
+							</ul>
+						</div>
+						<div id ="chanboba"></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="container-fluid">
+		<div class="row">
+			<div class="main-content">
+				<div class="slide-show">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="img/bg.jpg" alt="...">
+								<div class="welcome  wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.2s">
+									<a href="index.html" class="welcome-chi-tiet">
+										<h2>Versal</h2>
+									</a><br>
+									<a href="index.html" class="sologan">
+										<h3>Mua ngay khóa học trong tháng 10 để được giảm giá 20%</h3>
+									</a>
+								</div>	
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="search-content">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<form class="form-inline">
+										<div class="row">
+											<div class="col-md-8">
+												<input type="text" class="form-control" id="exampleInputName2" placeholder="Từ khóa">
+												<select id="button-search"class="form-control">
+													<option>Web</option>
+													<option>IOS</option>
+													<option>Adroid</option>
+													<option>Cơ sở dữ liệu</option>
+												</select>
+											</div>
+											<div class="col-md-4">
+												<button type="submit" class="btn btn-info"> Tìm kiếm</button>
+											</div>
+										</div>
+										<div class="title-footer">
+											<h3>Tìm khóa học phù phợp với bạn</h3>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</div>
+	</section>
+	<section class="container-fluid">
+		<div class="row">
+			<div class="container">
+				<div class="gioi_thieu">
+					<div class="row" id="gioi_thieu_text">
+						<div class="col-xs-12 col-sm-6 col-md-6 text_gt_left" >
+							<h2>Versal</h2>
+							<p>Versal là trung tâm đào tạo công nghệ thông tin được thành lập bởi nhóm chuyên gia CNTT, lập trình viên có nhiều năm kinh nghiệm làm việc tại tập đoàn Microsoft. Trong những ngày đầu tiên của Versal, nhóm tổ chức sự kiện CodeCamp, cùng nhau phát triển phần mềm demo các công nghệ mới nhất của Microsoft, tích hợp trong một giải pháp cụ thể, có tính ứng dụng thực tế cho khách hàng – đối tác của Microsoft...</p>
+							<a href="gioithieu.html">
+								<button type="button" class="btn btn-primary">Xem thêm</button>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<img src="http://estut.demo1.wpdance.com/demo/wp-content/uploads/2016/03/estut-block-intro.jpg" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="class-item">
+				
+				<div class="courses-item">
+					<div class="title-class">
+						<h2>Khóa học</h2>
+					</div>
+					<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail" data-wow-duration="1s" data-wow-delay="0.2s" >
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/wp-content/uploads/2015/uploads/lap-trinh-android.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Lập trình Android qua 10 ứng dụng thực tế</h3>
+												<div class="teacher">
+													<p class="name-teacher">Đặng đình chiến</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>1.500.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail">
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/Algorithm/algorithm.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Cấu trúc dữ liệu giải thuật thực tế - dễ học</h3>
+												<div class="teacher">
+													<p class="name-teacher">Nguyễn Đức Anh</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>4.000.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail">
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/HTML/HTMLCSSJS.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Web cơ bản HTML5, CSS3 và Javascript</h3>
+												<div class="teacher">
+													<p class="name-teacher">Đặng đình chiến</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>750.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail">
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/logo/JavaThucHanh.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Java căn bản thực hành</h3>
+												<div class="teacher">
+													<p class="name-teacher">Trần Ngọc Việt</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 05/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>650.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail "  data-wow-duration="1s" data-wow-delay="0.2s" >
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/logo/nodejs.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Node.js xây dựng web site tốc độ cao</h3>
+												<div class="teacher">
+													<p class="name-teacher">Phạm Đức Việt</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>2.500.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail">
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/no-image-course.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Thiết kế RESTful WebServices với Nodejs</h3>
+												<div class="teacher">
+													<p class="name-teacher">Phan Đức Việt</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>1.000.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail">
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/ASPNETMVC/ASPNETMVC(1).png" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Xây dựng mạng xã hội chia sẻ ảnh với ASP.NET MVC</h3>
+												<div class="teacher">
+													<p class="name-teacher">Đặng đình Chiến</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>750.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="thumbnail">
+											<a href="khoahoc.html">
+												<div class="item-image">
+													<img src="https://techmaster.vn/fileman/Uploads/MachineLearning/MachineLearning.jpg" class="img-responsive">
+													<div class="image-ovelay">
+														<a href="khoahoc.html" class="ovelay-a">
+															<span>Chi tiết khóa học</span>
+														</a>
+													</div>
+												</div>
+											</a>
+											<div class="item-review">
+												<h3>Nhập môn Machine Learning</h3>
+												<div class="teacher">
+													<p class="name-teacher">Cao Thanh Hà</p>
+													<span class="calendar-class"><i class="fa fa-calendar" style="color: black"></i> 30/10/2016</span>
+												</div>
+												<div class="item-rating">
+													<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+													<div>750.000 VND</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>			
+</section>
+<section class="container-fluid">
+	<div class="row">
+		<div class="blog">
+			<div class="title-blog">
+				<h2>Blog</h2>
+			</div>
+			<div class="body-blog">
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<img src="http://premiumlayers.com/demos/edumax/images/event1.jpg" class="img-responsive">
+					</div>
+					<div class="col-xs-12 col-md-7 blog-body">
+						<h3> 13 bước để trờ thành Hacker chuyên nghiệp</h3>
+						<div class="meta">
+							<span><i class="fa fa-clock-o"></i></span>
+							<font>12:45 PM</font>
+						</div>
+						<p>Nếu bạn có ý định trở thành một hacker chuyên nghiệp hoặc đơn giản chỉ là tò mò muốn biết các hacker đang học những gì, thì bài viết này dành cho bạn.</p>
+					</div>
+					<div class="col-xs-12 col-md-2">
+						<a href="blog-CT.html">
+							<span>Đọc thêm</span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class=".col-xs-12 col-md-3">
+						<img src="http://premiumlayers.com/demos/edumax/images/event3.jpg" class="img-responsive">
+					</div>
+					<div class="col-xs-12 col-md-7 blog-body">
+						<h3>React Native: Kinh nghiệm khi dùng</h3>
+						<div class="meta">
+							<span><i class="fa fa-clock-o"></i></span>
+							<font>12:45 PM</font>
+						</div>
+						<p>React Native rất tuyệt, nhưng vẫn đang trong quá trình phát triển nên bạn sẽ đọc rất nhiều thông tin không chính xác (lỗi thời) trên mạng vì mỗi tuần lại có thay đổi lớn. Sau đây là một số thứ bạn nên biết (documentation dịch chưa được chuẩn lắm).</p>
+					</div>
+					<div class="col-xs-12 col-md-2">
+						<a href="blog-CT.html">
+							<span>Đọc thêm</span>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-3">
+						<img src="http://premiumlayers.com/demos/edumax/images/event2.jpg" class="img-responsive">
+					</div>
+					<div class="col-xs-12 col-md-7 blog-body">
+						<h3>Thống kê nhanh 6 hướng đi cho lập trình viên</h3>
+						<div class="meta">
+							<span><i class="fa fa-clock-o"></i></span>
+							<font>12:45 PM</font>
+						</div>
+						<p>Đây là một bản thống kê ngắn gọn của Free Code Camp với hơn 15000 lượt tương tác. Trong đó có 6503 lập trình viên mới vào nghề trả lời câu hỏi "Bạn chọn con đường nào cho sự nghiệp của mình?</p>
+					</div>
+					<div class="col-xs-12 col-md-2">
+						<a href="blog-CT.html">
+							<span>Đọc thêm</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="container-fluid" id="footer">
+	<div class="row nhan-xet">
+		<div class="col-md-4">
+
+			<div class="row">
+				<div class="col-md-3">
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYZps1oegzGReCwUrsjArnXk_KfcEqxDtMiJz2MZOZmADRBDqn" class="img-responsive">
+				</div>
+				<div class="col-md-9">
+					<p>Em thấy nội dung bài học khá ổn, tất cả các bài học đề có sample code cho học viên tham khảo. Tuy nhiên chương trình học khá nhanh nên em chưa theo kịp chương trình dạy. Nếu giảng viên có thể dạy chậm...</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYZps1oegzGReCwUrsjArnXk_KfcEqxDtMiJz2MZOZmADRBDqn" class="img-responsive">
+				</div>
+				<div class="col-md-9">
+					<p>Em thấy nội dung bài học khá ổn, tất cả các bài học đề có sample code cho học viên tham khảo. Tuy nhiên chương trình học khá nhanh nên em chưa theo kịp chương trình dạy. Nếu giảng viên có thể dạy chậm...</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYZps1oegzGReCwUrsjArnXk_KfcEqxDtMiJz2MZOZmADRBDqn" class="img-responsive">
+				</div>
+				<div class="col-md-9">
+					<p>Em thấy nội dung bài học khá ổn, tất cả các bài học đề có sample code cho học viên tham khảo. Tuy nhiên chương trình học khá nhanh nên em chưa theo kịp chương trình dạy. Nếu giảng viên có thể dạy chậm...</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<p>Hãy cho chúng tôi biết cảm nhận của bạn về TechMater?</p>
+			<button type="button" class="btn btn-primary">Gửi chia sẻ của bạn</button>
+		</div>
+	</div>
+	<div class="row footer0">
+		<div class="tool-box">
+			<ul>
+				<li><a href="#top"><i class="fa fa-arrow-up "></i></a></li>
+				<li><a href="trangchu.html"><i class="fa fa-home"></i></a></li>
+				<li><a href="#bottom"><i class="fa fa-envelope-o"></i></a></li>
+				<li id="fa-mobile"><a href="https://www.facebook.com/techmastervn/?fref=ts"><i class="fa fa-facebook  fa-2x"></i></a></li>
+			</ul>
+		</div>
+		<div class="col-md-4 contacts-footer">
+			<div class="log-footer">
+				<img src="">
+				<h2>Versal</h2>
+			</div>
+			<span><i class="fa fa-map-marker"></i> Số 14, ngõ 4, Nguyễn Đình Chiểu, quận Hai Bà Trưng, Hà nội, Việt nam.</span><br>
+			<span><i class="fa fa-map-marker"></i> Phòng 2304, tầng 23, toà nhà Ocean Bank (StarCity), 81 Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội.</span><br>
+			<span><i class="fa fa-phone"></i> (84)09123456789</span><br>
+			<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+		</div>
+		<div class="col-md-4 " id="lien-ket-footer">
+			<h2>Về chúng tôi</h2>
+			<a href=""><span>Giới thiệu</span></a>
+			<a href=""><span>Giang viên</span></a>
+			<a href=""><span>Câu hỏi thường gặp</span></a>
+			<a href=""><span>Chính sách bảo mật</span></a>
+		</div>
+		<div class="col-md-4 confirm-footer">
+			<h2>Gửi phản hồi</h2>
+			<input type="text" class="form-control" id="inputEmail3" placeholder="Tên">
+			<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+			<textarea class="form-control" rows="3" placeholder="messeger"></textarea>
+			<button type="button" class="btn btn-primary">Gửi phản hôi</button>
+		</div>
+	</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="plugin/rateit.js-master/scripts/jquery.rateit.min.js"></script>
+<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+<script type="text/javascript" src="script/wow.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
+
+<script>
+	new WOW().init();
+</script>
+</body>
+</html>

@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chi_tiet</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="plugin/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/rateit.js-master/scripts/rateit.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="laptop">
+			<div class="row">
+				<div class="top-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="top-header_contacts">
+									<span><i class="fa fa-phone"></i> (84) 09121006</span>
+								</div>
+								<div class="top-header_email">
+									<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+								</div>
+								<div class="header_login">
+									<a href="" data-toggle="modal" data-target="#myModal" id="icon-user"><i class="fa fa-user"></i>
+										<span> Đăng nhập</span>
+									</a>
+									<a href="" id="ten_URS">
+										
+									</a>
+									<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<ul class="nav nav-tabs user-password" role="tablist">
+														<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+														<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+													</ul>
+												</div>
+												<div class="modal-body">
+													<div class="tab-content">
+														<div role="tabpanel" class="tab-pane active" id="home">
+															<div class="form-horizontal">
+																<div class="form-group">
+																	<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+																	<div class="col-sm-10">
+																		<input type="email" class="form-control ten_HV" id="inputEmail3" placeholder="Email" >
+																	</div>
+																</div>
+																<div class="form-group">
+																	<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+																	<div class="col-sm-10">
+																		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<div class="checkbox">
+																			<label>
+																				<input type="checkbox"> Remember me
+																			</label>
+																		</div>
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<button class="btn btn-default"
+																		data-dismiss="modal" id="sign_in">Sign in</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div role="tabpanel" class="tab-pane" id="profile">
+															<form class="form-horizontal">
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+																	<div class="col-sm-9">
+																		<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label"></label>
+																	<div class="col-sm-9">
+																		<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+																	</div>
+																</div>
+
+															</form>
+														</div>
+													</div>
+
+												</div>
+
+												<div class="modal-footer" id="modal-footer.laptop">
+
+													<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+													<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-header">
+					<nav class="navbar navbar-default" id="menu-header-1">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand logo-laptop" href="#">
+									<img src="img/logo.png" class="img-responsive">
+								</a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="trangchu.html">Trang chủ</a></li>
+
+									<li><a href="index.html">Blog</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									
+									<li><a href="gioithieu.html">Giới thiệu</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="mobile">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false" id="icon-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<button class="search_mobile" id="search-mobile-2"><i class="fa fa-search"></i></button>
+							<div class="col-xs-12 search_mobile-0">
+								<div class="row">
+									<div class="col-xs-2 ">
+										<button class="search_mobile"><i class="fa fa-search"></i></button>
+									</div>
+									<div class="col-xs-8 input-search" >
+										<div class="form-group">
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="search">
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<button class="search_mobile" id="close-search-mobile"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+							</div>
+							<button class="shopping_mobile an_1" data-toggle="modal" data-target="#myModal2"><i class="fa fa-user " style="font-size: 23px"></i></button>
+							<div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<ul class="nav nav-tabs user-password" role="tablist">
+												<li role="presentation" class="active"><a href="#home1" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+												<li role="presentation"><a href="#profile1" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+											</ul>
+										</div>
+										<div class="modal-body">
+											<div class="tab-content">
+												<div role="tabpanel" class="tab-pane active" id="home1">
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+																<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="form-group">
+															<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+																<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<div class="checkbox">
+																	<label>
+																		<input type="checkbox"> Remember me
+																	</label>
+																</div>
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<button type="submit" class="btn btn-default">Sign in</button>
+															</div>
+														</div>
+													</form>
+												</div>
+												<div role="tabpanel" class="tab-pane" id="profile1">
+													<form class="form-horizontal">
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+															<div class="col-sm-9">
+																<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label"></label>
+															<div class="col-sm-9">
+																<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+															</div>
+														</div>
+
+													</form>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="modal-footer" id="modal-footer.laptop">
+
+											<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+											<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+										</div>
+									</div>
+								</div>
+							</div>	
+							<a class="navbar-brand menu-logo" href="#"><img src="img/logo.png" class="img-responsive logo"></a>
+						</div>
+						<div >
+							<ul class="nav navbar-nav" id ="menu-left">	
+								<div class="logo-item">
+									<img src="https://udemy-images.udemy.com/user/200_H/anonymous.png" class="img-responsive">
+								</div>
+								<li><a href="thongtintaikhoan.html">Tài khoản</a></li>
+								<li><a href="trangchu.html">Trang chủ</a></li>
+								<li><a href="index.html">Khóa học</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="gioithieu.html">Liên hệ</a></li>
+								<li><a href="chitiet_kh.html">Học thử</a></li>
+								<li><a href="#">Ebooks</a></li>
+							</ul>
+						</div>
+						<div id ="chanboba"></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="container-fluid chi_tiet_KH">
+		<div class="row">
+			<div class="col-xs-12 video">
+				<div style="font-size: 25px" >Login From</div>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ulbvdtLFZHk" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="full-menu">
+					<a ><i class="fa fa-chevron-left"></i></a>
+				</div>
+				<div class="quiz">
+					<button type="button" class="btn btn-primary quiz-left" data-toggle="modal" data-target="#modal-challenge">Code thử</button>
+					
+					<button type="button" class="btn btn-primary quiz-right" data-toggle="modal" data-target="#myModal3" id="luyen_tap_quiz" >Luyện tập Quiz</button>
+					<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close" id="cauhoi-rs"><span aria-hidden="true">&times;</span></button>
+									<div class="progress">
+										<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:">
+										</div>
+									</div>
+								</div>
+								<div class="modal-body">
+									<div class="quiz-menu">
+										<p id="cau-hoi">HTML là viết tắt của cụm từ nào?</p>
+										<div class="row">
+											<div class="col-md-6">
+												
+												<input type="radio" name="answer" id="dap_an1" class="checkbox1" >
+												
+												
+												<label for="dap_an1" class="dap_an" id="tra_loi1">
+													[1] Hyper Text Markup Language
+												</label>
+											</div>
+											<div class="col-md-6">
+												<input type="radio" name="answer" id="dap_an2" class="checkbox1" >
+												<label for="dap_an2" class="dap_an" id="tra_loi2">
+													[2] Home Tool Markup Language
+												</label>
+											</div>
+										</div>
+										<div class="row" >
+											<div class="col-md-6">
+												<input type="radio" name="answer" id="dap_an3" class="checkbox1" >
+												<label for="dap_an3" class="dap_an" id="tra_loi3">
+													[3] Holistic Technical Method Library
+												</label>
+											</div>
+											<div class="col-md-6">
+												<input type="radio" name="answer" id="dap_an4"
+												class="checkbox1" >
+												<label for="dap_an4" class="dap_an" id="tra_loi4">
+													[4] Hyper Tool Markup Language
+												</label>
+											</div>
+										</div>
+									</div>
+									<div id="thong_bao">
+										Bạn chưa hoàn thành bài học
+									</div>
+								</div>
+								<div class="modal-footer">
+									<div id="ket_qua"></div>
+									<button type="button" class="btn btn-primary" id="kiem_tra">Kiểm tra</button>
+									<button type="button" class="btn btn-primary" id="tiep_tuc">Tiếp tục</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal-challenge">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingOne">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														Thực hành
+													</a>
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+												</h4>
+											</div>
+											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+												<div class="panel-body">
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 challenge-input">
+														
+														<div role="tabpanel">
+															<!-- Nav tabs -->
+															<ul class="nav nav-tabs" role="tablist">
+																<li role="presentation" class="active">
+																	<a href="#editor-html" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-html5 hide-laptop" aria-hidden="true"></i><span class="hide-mobile">index.html</span></a>
+																</li>
+																<li role="presentation">
+																	<a href="#editor-css" aria-controls="tab" role="tab" data-toggle="tab"><i class="fa fa-css3 hide-laptop" aria-hidden="true"></i><span class="hide-mobile">style.css</span></a>
+																</li>
+																<li role="presentation">
+																	<a href="#editor-js" aria-controls="tab" role="tab" data-toggle="tab"><i class="fa fa-codepen hide-laptop" aria-hidden="true"></i><span class="hide-mobile">script.js</span></a>
+																</li>
+															</ul>
+
+															<!-- Tab panes -->
+															<div class="tab-content" style="height: 300px;">
+																<div role="tabpanel" class="tab-pane active" style="position: relative;width:100%; height:100%; overflow: hidden" id="editor-html"></div>
+																<div role="tabpanel" class="tab-pane css" id="editor-css" style="position: relative;width:100%; height: 100%; overflow: hidden"></div>
+																<div role="tabpanel" class="tab-pane" id="editor-js" style="position: relative;width:100%; height: 100%; overflow: hidden"></div>
+																<div class="challenge-btn text-center">
+																	<button class="btn btn-primary" type="button" id="innerbox">
+																		Run
+																	</button>
+																	<div class="well">
+																		<div class="innerbox preview">
+																			<iframe id="live_update">
+																				<!DOCTYPE html>
+																				<html lang="en">
+																				<head><meta charset="UTF-8"></head>
+																				<body>
+
+																				</body>
+																			</iframe>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>			
+
+					<div class=" chuyen_bai col-sm-12">
+						<nav aria-label="...">
+							<ul class="pager">
+								<li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Bài trước</a></li>
+								<li class="next"><a href="#">Bài sau <span aria-hidden="true">&rarr;</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 right-conten">
+				<div>
+					<ul class="nav nav-tabs" role="tablist">
+						<li><a id="full-right"><i class="fa fa-chevron-left" style="color: black"></i></a></li>
+						<li role="presentation" class="active"><a href="#profile3" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-bookmark-o"></i></a></li>
+						<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-book"></i></a></li>
+						<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-comments-o"></i></a></li>
+						<li role="presentation"><a href="#xep_hang" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-trophy"></i></a></li>
+					</ul>
+					<div class="tab-content">
+
+						<div role="tabpanel" class="tab-pane active panel-right" id="profile3">
+							<div class="panel-group">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4>Tổng quan về HTML</h4>
+									</div>
+									<div>
+										<ul>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> HTML là gì</span>
+														</div>
+														<div class="col-xs-3">
+															<span>02:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> Ứng dụng HTML đầu tiên</span>
+														</div>
+														<div class="col-xs-3">
+															<span>12:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span>Heading, Paragraph &amp; Special characters</span>
+														</div>
+														<div class="col-xs-3">
+															<span>10:03</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> Các thẻ format text</span>
+														</div>
+														<div class="col-xs-3">
+															<span>06:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> BT: Tạo 1 trang HTML đơn giản</span>
+														</div>
+														<div class="col-xs-3">
+															<span></span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4>Tổng quan về CSS</h4>
+									</div>
+									<div>
+										<ul>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> CSS và cách sử dụng trên trang HTML</span>
+														</div>
+														<div class="col-xs-3">
+															<span>06:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> CSS syntax</span>
+														</div>
+														<div class="col-xs-3">
+															<span>07:27</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> CSS Selectors</span>
+														</div>
+														<div class="col-xs-3">
+															<span>08:39</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> Styling text</span>
+														</div>
+														<div class="col-xs-3">
+															<span>08:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> Hướng dẫn sử dụng Chrome Developer Tools</span>
+														</div>
+														<div class="col-xs-3">
+															<span>08:05</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> Ứng dụng HTML đầu tiên</span>
+														</div>
+														<div class="col-xs-3">
+															<span>12:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li>
+												<a href="">
+													<div class="row">
+														<div class="col-xs-9">
+															<i class="fa fa-circle"></i>
+															<span> Ứng dụng HTML đầu tiên</span>
+														</div>
+														<div class="col-xs-3">
+															<span>12:23</span>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane panel-right" id="messages">
+							<h2>Chú ý:</h2>
+							<p>- Thẻ form có 2 thuộc tính khá quan trọng đó là:</p>
+							<ul>
+								<li>action: Chỉ ra nơi xử lý dữ liệu form khi form được submit (thường là đường dẫn đến 1 trang nào đó, nếu để rỗng thì sẽ lấy mặc định là trang hiện tại)</li>
+								<li>method: Phương thức gửi dữ liệu. Có 2 giá trị là GET và POST. Phương thức GET gửi dữ liệu lên dưới dạng các cặp key/value và chúng ta có thể nhìn thấy trên URL (mặc định), do đó phương thức GET dùng trong trường hợp mà dữ liệu gửi lên không cần bảo mật (ví dụ như search của Google). Phương thức POST thì gửi dữ liệu qua HTTP request nên dữ liệu không nhìn thấy được qua URL, thích hợp để gửi các dữ liệu cần bảo mật như form đăng nhập, đăng ký.</li>
+							</ul>
+							<p>- Nếu trong form có sử dụng input type="file"/> (cho phép người dùng upload file) thì form phải có thuộc tính enctype="multipart/form-data" và method="post".)</p>
+						</div>
+						<div role="tabpanel" class="tab-pane panel-right" id="settings">
+							<h4 style="margin-bottom: 20px">Nếu có thắc mắc về bài học, xin vui lòng đặt câu hỏi tại đây.</h4>
+							<textarea class="form-control" rows="3" placeholder="Thắc mắc"></textarea>
+						</div>
+						<div role="tabpanel" class="tab-pane panel-right" id="xep_hang">...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<footer class="container-fluid" id="footer">
+		<div class="row footer0">
+			<div class="tool-box">
+				<ul>
+					<li><a href="#top"><i class="fa fa-arrow-up "></i></a></li>
+					<li><a href="trangchu.html"><i class="fa fa-home"></i></a></li>
+					<li><a href="#bottom"><i class="fa fa-envelope-o"></i></a></li>
+					<li id="fa-mobile"><a href="https://www.facebook.com/techmastervn/?fref=ts"><i class="fa fa-facebook  fa-2x"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 contacts-footer">
+				<div class="log-footer">
+					<img src="">
+					<h2>Versal</h2>
+				</div>
+				<span><i class="fa fa-map-marker"></i> Số 14, ngõ 4, Nguyễn Đình Chiểu, quận Hai Bà Trưng, Hà nội, Việt nam.</span><br>
+				<span><i class="fa fa-map-marker"></i> Phòng 2304, tầng 23, toà nhà Ocean Bank (StarCity), 81 Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội.</span><br>
+				<span><i class="fa fa-phone"></i> (84)09123456789</span><br>
+				<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+			</div>
+			<div class="col-md-4 " id="lien-ket-footer">
+				<h2>Về chúng tôi</h2>
+				<a href=""><span>Giới thiệu</span></a>
+				<a href=""><span>Giang viên</span></a>
+				<a href=""><span>Câu hỏi thường gặp</span></a>
+				<a href=""><span>Chính sách bảo mật</span></a>
+			</div>
+			<div class="col-md-4 confirm-footer">
+				<h2>Gửi phản hồi</h2>
+				<input type="text" class="form-control" id="inputEmail3" placeholder="Tên">
+				<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				<textarea class="form-control" rows="3" placeholder="messeger"></textarea>
+				<button type="button" class="btn btn-info">Gửi phản hôi</button>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="plugin/rateit.js-master/scripts/jquery.rateit.min.js"></script>
+
+	<script src="https://cloud9ide.github.io/emmet-core/emmet.js"></script>
+	<script src="ace/ace.js"></script>
+	<script src="ace/ext-language_tools.js"></script>
+	<script src="ace/ext-emmet.js"></script>
+	<script src="ace/ext-modelist.js"></script>
+
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

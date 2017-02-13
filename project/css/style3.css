@@ -1,0 +1,284 @@
+/*.video {
+	margin-top: 15%;
+	}*/
+	.right-conten .nav-tabs {
+		background-color: white;
+	}
+	#myModal3 .modal-body .quiz-menu .row {
+		margin-bottom: 10px;
+	}
+	#modal-challenge .modal-body {
+		height: 750px;
+	}
+	#innerbox {
+		width: 30%;
+		margin-bottom: 20px;
+	}
+	#modal-challenge .panel-default {
+		height: 725px;
+	}
+	.quiz button {
+		width: 100%;
+		border-radius: 0px;
+		margin-top: 10px;
+	}
+	.video > .quiz {
+		margin-top: 5%;
+		text-align: center;
+	}
+	.modal-footer #kiem_tra, #tiep_tuc {
+		width: 30%;
+		float: right;
+	}
+	.modal-footer #tiep_tuc {
+		float: right;
+		display: none;
+	}
+
+	.quiz-menu p,.col-md-6 {
+		text-align: left;
+	}
+	.quiz-menu p {
+		margin-bottom: 20px;
+	}
+	.chuyen_bai {
+		margin-top: 5%;
+		text-align: center;
+	}
+	.chuyen_bai button {
+		width: 40%;
+		border-radius: 0px;
+	}
+	.quiz .close {
+		width: 2%;
+		margin-left: 10px;
+		margin-top: 0px;
+	}
+	.right-conten .nav-tabs li a {
+		text-align: center;
+	}
+	.right-conten {
+		display: none;
+	}
+
+	.fa-chevron-left {
+		display: inline-block;
+	}
+	.right-conten {
+		margin-top: 10px;
+	}
+	.quiz .modal-dialog {
+		width: 90%;
+		margin: 30px auto;
+	}
+
+	.progress {
+		margin: 5px;
+	}
+	.col-xs-12 .tab-content {
+		padding: 0px;
+		background-color: white;
+	}
+	.panel-right {
+		margin-top:-1px;
+		padding: 15px;
+		max-height: 500px;
+		overflow: auto;
+	}
+	.tab-content .panel-group ul li a .row {
+		padding: 10px;
+	}
+	.right-conten .fa-chevron-left {
+		transform: rotateY(180deg);
+	}
+	.full-menu {
+		display: block;
+		position: absolute;
+		top: 0px;
+		right: 0;
+		border: 1px solid rgba(23, 24, 26, 0.15);
+		border-right: none;
+		-webkit-border-radius: 5px 0 0 5px;
+		-moz-border-radius: 5px 0 0 5px;
+		-ms-border-radius: 5px 0 0 5px;
+		-o-border-radius: 5px 0 0 5px;
+		border-radius: 5px 0 0 5px;
+		background-color: white;;
+
+	} 
+	.full-menu a {
+		padding: 5px;
+		text-align: center;
+		font-size: 20px;
+		display: block;
+		width: 35px;
+		height: 35px;
+	}
+	.right-conten {
+		position: absolute;
+		top: 70px;
+		margin-left: 100%;
+
+	}
+	.full-width {
+		background-color: white;
+		display: block;
+		margin-left: 0;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		height: 1207px;
+		z-index: 999;
+	}
+	.right-conten ul li a {
+		width: 65px;
+	}
+	.modal-footer #ket_qua {
+		float: left;
+	}
+	.modal-footer #ket_qua .fa-check {
+		font-size: 40px;
+		padding: 5px;
+		color: #17aa1c;
+	}
+	.modal-footer #ket_qua .fa-close {
+		font-size: 40px;
+		padding: 5px;
+		color: #ff0000;
+	}
+	.video .quiz .dap_an {
+		font-size: 13px;
+		font-weight: 300;
+	}
+	.video .quiz #cau-hoi {
+		font-weight: 700;
+	}
+	#thong_bao {
+		display: none;
+	}
+	.video {
+		margin-bottom: 20px;
+	}
+	.right-conten .tab-pane {
+		height: 1000px;
+	}
+	.right-conten .nav-tabs i {
+		color:#2d3e50;
+	}
+	#live_update {
+		width: 100%;
+	}
+	
+	
+	@media (min-width: 992px) {
+		/*.chi_tiet_KH {
+			margin-top: 20px;
+			}*/
+			.modal-footer #kiem_tra, #tiep_tuc {
+				width: 20%;
+				float: right;
+			}
+			#collapseOne .text-center  {
+				padding: 15px 0px;
+			}
+			.chi_tiet_KH {
+				padding: 0px 30px;
+			}
+
+			.video .quiz .modal-content {
+				margin-top:100px;
+			}
+			.full-menu {
+				display: none;
+			}
+			.right-conten .fa-chevron-left {
+				transform: rotateY(0deg);
+			}
+			.right-conten {
+				display: block;
+			}
+			.right-conten {
+				margin-top: 0px;
+			}
+			.video {
+				width: 60%;
+				margin-top:2%;
+			}
+			.quiz .modal-dialog {
+				width: 80%;
+			}
+			
+			.quiz .quiz-left,.quiz-right {
+				width: 100%;
+				color: white;
+				min-height: 50px;
+				font-size: 20px;
+			}
+			.chuyen_bai {
+				margin-top: 0%;
+				padding: 0px;
+			}
+			.chuyen_bai .back-CB {
+				font-size: 15px;
+				padding: 10px;
+				float: left;
+			}
+			.chuyen_bai .next-CB {
+				font-size: 15px;
+				padding: 10px;
+				float: right;
+			}
+			.chuyen_bai button {
+				display: inline-block;
+				width: 10%;
+			}
+			.chi_tiet_KH .row {
+				position: relative;
+			}
+			.right-conten {
+				position: absolute;
+				top: 0%;
+				margin-left: 60%;
+				padding-right: 15px;
+				width: 40%;
+				padding:20px 0px;
+			}
+
+			.embed-responsive-16by9 {
+				margin-top:10px;
+			}
+			.full-width {
+				margin-left: 0;
+				width: 100%;
+			}
+			.full-width .fa-chevron-left {
+				transform: rotateY(180deg);
+			}
+			.right-conten ul li a {
+				width: 100px;
+			}
+			#myModal3 .modal-body .quiz-menu {
+				padding: 20px 40px;
+			}
+			#myModal3 .modal-body .quiz-menu .row {
+				margin-bottom: 10px;
+			}
+			#modal-challenge .modal-body {
+				height: 750px;
+			}
+			#innerbox {
+				width: 15%;
+				margin-bottom: 20px;
+			}
+			#modal-challenge .panel-default {
+				height: 725px;
+			}
+			#innerbox {
+				width: 15%;
+				margin-bottom: 20px;
+			}
+			.video > .quiz {
+				margin-top: 2%;
+				text-align: center;
+			}
+		}

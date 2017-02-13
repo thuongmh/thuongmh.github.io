@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gioi thiệu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="plugin/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/rateit.js-master/scripts/rateit.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="laptop">
+			<div class="row">
+				<div class="top-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="top-header_contacts">
+									<span><i class="fa fa-phone"></i> (84) 09121006</span>
+								</div>
+								<div class="top-header_email">
+									<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+								</div>
+								<div class="header_login">
+									<a href="" data-toggle="modal" data-target="#myModal" id="icon-user"><i class="fa fa-user"></i>
+										<span> Đăng nhập</span>
+									</a>
+									<a href="" id="ten_URS">
+										
+									</a>
+									<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<ul class="nav nav-tabs user-password" role="tablist">
+														<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+														<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+													</ul>
+												</div>
+												<div class="modal-body">
+													<div class="tab-content">
+														<div role="tabpanel" class="tab-pane active" id="home">
+															<div class="form-horizontal">
+																<div class="form-group">
+																	<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+																	<div class="col-sm-10">
+																		<input type="email" class="form-control ten_HV" id="inputEmail3" placeholder="Email" >
+																	</div>
+																</div>
+																<div class="form-group">
+																	<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+																	<div class="col-sm-10">
+																		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<div class="checkbox">
+																			<label>
+																				<input type="checkbox"> Remember me
+																			</label>
+																		</div>
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<button class="btn btn-default"
+																		data-dismiss="modal" id="sign_in">Sign in</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div role="tabpanel" class="tab-pane" id="profile">
+															<form class="form-horizontal">
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+																	<div class="col-sm-9">
+																		<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label"></label>
+																	<div class="col-sm-9">
+																		<button type="submit" class="btn btn-default"> Đăng ký</button>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+												</div>
+												<div class="modal-footer" id="modal-footer.laptop">
+
+													<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+													<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-header">
+					<nav class="navbar navbar-default" id="menu-header-1">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand logo-laptop" href="#">
+									<img src="img/logo.png" class="img-responsive">
+								</a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="trangchu.html">Trang chủ</a></li>
+
+									<li><a href="index.html">Khóa học</a></li>
+									<li><a href="blog.html">Blog</a></li>
+								
+									<li><a href="gioithieu.html">Liên hệ</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="mobile">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false" id="icon-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<button class="search_mobile" id="search-mobile-2"><i class="fa fa-search"></i></button>
+							<div class="col-xs-12 search_mobile-0">
+								<div class="row">
+									<div class="col-xs-2 ">
+										<button class="search_mobile"><i class="fa fa-search"></i></button>
+									</div>
+									<div class="col-xs-8 input-search" >
+										<div class="form-group">
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="search">
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<button class="search_mobile" id="close-search-mobile"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+							</div>
+							<button class="shopping_mobile an_1" data-toggle="modal" data-target="#myModal2"><i class="fa fa-user " style="font-size: 23px"></i></button>
+							<div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<ul class="nav nav-tabs user-password" role="tablist">
+												<li role="presentation" class="active"><a href="#home1" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+												<li role="presentation"><a href="#profile1" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+											</ul>
+										</div>
+										<div class="modal-body">
+											<div class="tab-content">
+												<div role="tabpanel" class="tab-pane active" id="home1">
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+																<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="form-group">
+															<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+																<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<div class="checkbox">
+																	<label>
+																		<input type="checkbox"> Remember me
+																	</label>
+																</div>
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<button type="submit" class="btn btn-default">Sign in</button>
+															</div>
+														</div>
+													</form>
+												</div>
+												<div role="tabpanel" class="tab-pane" id="profile1">
+													<form class="form-horizontal">
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+															<div class="col-sm-9">
+																<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label"></label>
+															<div class="col-sm-9">
+																<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+															</div>
+														</div>
+
+													</form>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="modal-footer" id="modal-footer.laptop">
+
+											<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+											<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+										</div>
+									</div>
+								</div>
+							</div>	
+							<a class="navbar-brand menu-logo" href="#"><img src="img/logo.png" class="img-responsive logo"></a>
+						</div>
+						<div >
+							<ul class="nav navbar-nav" id ="menu-left">	
+								<div class="logo-item">
+									<img src="https://udemy-images.udemy.com/user/200_H/anonymous.png" class="img-responsive">
+								</div>
+								<li><a href="thongtintaikhoan.html">Tài khoản</a></li>
+								<li><a href="trangchu.html">Trang chủ</a></li>
+								<li><a href="index.html">Khóa học</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="gioithieu.html">Liên hệ</a></li>
+								<li><a href="chitiet_kh.html">Học thử</a></li>
+								<li><a href="#">Ebooks</a></li>
+							</ul>
+						</div>
+						<div id ="chanboba"></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="container">
+		<div class="gioi_thieu">
+			<div class="row" id="gioi_thieu_text">
+				<div class="col-md-6 text_gt_left" >
+					<h2>Versal</h2>
+					<p>Versal là trung tâm đào tạo công nghệ thông tin được thành lập bởi nhóm chuyên gia CNTT, lập trình viên có nhiều năm kinh nghiệm làm việc tại tập đoàn Microsoft. Trong những ngày đầu tiên của Versal, nhóm tổ chức sự kiện CodeCamp, cùng nhau phát triển phần mềm demo các công nghệ mới nhất của Microsoft, tích hợp trong một giải pháp cụ thể, có tính ứng dụng thực tế cho khách hàng – đối tác của Microsoft...</p>
+					<p>Sau các sự kiện CodeCamp, các thành viên trong nhóm nhận ra rằng:<br>
+
+						– Chúng ta có thể làm sản phẩm tốt hơn so với cách làm hiện nay ở công ty.<br>
+
+						– Năng suất thiết kế, phát triển sản phẩm ở CodeCamp thường cao gấp 1.5-2 lần so với năng suất trung bình tại hầu hết các công ty phần mềm. Thành viên tham gia vẫn thích thú, và tràn đầy nhiệt huyết.<br>
+
+						– Các lập trình viên ở VN có quá ít cơ hội để cọ xát và phát triển sản phẩm  mới, khám phá hết năng lực thực sự của bản thân.
+					</p>
+					<p id="noi_doan" ">Từ đó, nhóm hình thành ý tưởng trung tâm đào tạo TechMaster với mục tiêu:<br>
+
+						– Cung cấp lập trình viên được đào tạo kỹ năng phân tích, thiết kế, lập trình trong một môi trường thực sự cạnh tranh.<br>
+
+						– Cập nhật những công nghệ mới nhất, đang thiếu hụt chuyên gia nhất cho các công ty phần mềm.<br>
+
+						
+					</p>
+				</div>
+				<div class="col-md-6">
+					<img src="http://estut.demo1.wpdance.com/demo/wp-content/uploads/2016/03/estut-block-intro.jpg" class="img-responsive">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 ">
+					<p>
+						– Giúp các bạn sinh viên có cái nhìn đúng đắn về nghề nghiệp lập trình (chúng ta là ai, đang ở đâu, so với thế giới ra sao, tốt nghiệp sẽ làm gì, lương được khoảng bao nhiều tiền). Chuẩn bị kỹ năng mà các công ty phần mềm đang cần tuyển dụng.<br>
+
+						– Thay đổi phong cách làm việc từ thụ động, thiếu chia xẻ sang chủ động, hợp tác, năng suất cao theo tinh thần CodeCamp.
+					</p>
+					<p>Ngay từ những ngày đầu hoạt động, TechMaster đã nhận được yêu cầu đào tạo, tư vấn công nghệ, thiết kế dự án từ nhiều khách hàng là những công ty phần mềm lớn, nhỏ, nội địa và quốc tế như FPTSoftware, Viettel, AddOn Development (Đan Mạch), Vietsoftware International, TinhVan, HyperLogy, Bravo Accounting, Interpol Vietnam, AirMekong, TienPhongTF, Chợ ứng dụng AppOTA, mạng xã hội Tầm Tay, VCCorp, VTC, Infoway, SoCom…</p>
+					<p><a href=""></a>Xem thêm danh sách khách hàng cập nhật đến tháng 8/2012</p>
+					<p>Đối với sinh viên, phương pháp đào tạo của TechMaster gây thích thú vì những bài giảng thực tế, khuyên khích sự sáng tạo, dám nghĩ dám làm của sinh viên. Cho đến nay, TechMaster đã đào tạo cho sinh viên đến từ các trường FPT University, đại học Bách Khoa Hà nội, đại học Xây Dựng, đại học Kiến Trúc, đại học Nông Nghiệp, Aptech, NITT… 100% các bạn sinh viên bảo vệ tốt nghiệp thành công khóa học tại TechMaster đều được các công ty phần mềm nhận vào làm ngay.  Tham khảo video <a href="http://www.youtube.com/watch?v=1Y1XtKGsRIw">buổi bảo vệ của nhóm sinh viên học lập trình ứng dụng iOS</a> được công ty TinhVan Outsourcing tuyển dụng ngay sau tốt nghiệp.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 footer-gioithieu">
+					<p id="yeu_cau">Bằng hành động cụ thể của giảng viên và kỷ luật khóa học, TechMaster kiên trì đào tạo học viên đáp ứng 3 yêu cầu:</p>
+					<p>1- Đạo đức nghề nghiệp lập trình: không mang mã nguồn ra khỏi công ty, cam kết bảo mật thông tin, tôn trọng quyền tác giả</p>
+					<p>
+						2- Thực hiện đến cùng mục tiêu đề ra</p>
+						<p>
+							3- Khiêm tốn, chăm chỉ, học hỏi, chia sẻ</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="container-fluid" id="footer">
+		<div class="row footer0">
+			<div class="tool-box">
+				<ul>
+					<li><a href="#top"><i class="fa fa-arrow-up "></i></a></li>
+					<li><a href="trangchu.html"><i class="fa fa-home"></i></a></li>
+					<li><a href="#top"><i class="fa fa-envelope-o"></i></a></li>
+					<li id="fa-mobile"><a href="#top"><i class="fa fa-mobile"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 contacts-footer">
+				<div class="log-footer">
+					<img src="">
+					<h2>Versal</h2>
+				</div>
+				<span><i class="fa fa-map-marker"></i> Số 14, ngõ 4, Nguyễn Đình Chiểu, quận Hai Bà Trưng, Hà nội, Việt nam.</span><br>
+				<span><i class="fa fa-map-marker"></i> Phòng 2304, tầng 23, toà nhà Ocean Bank (StarCity), 81 Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội.</span><br>
+				<span><i class="fa fa-phone"></i> (84)09123456789</span><br>
+				<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+			</div>
+			<div class="col-md-4 " id="lien-ket-footer">
+				<h2>Về chúng tôi</h2>
+				<a href=""><span>Giới thiệu</span></a>
+				<a href=""><span>Giang viên</span></a>
+				<a href=""><span>Câu hỏi thường gặp</span></a>
+				<a href=""><span>Chính sách bảo mật</span></a>
+			</div>
+			<div class="col-md-4 confirm-footer">
+				<h2>Gửi phản hồi</h2>
+				<input type="text" class="form-control" id="inputEmail3" placeholder="Tên">
+				<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				<textarea class="form-control" rows="3" placeholder="messeger"></textarea>
+				<button type="button" class="btn btn-info">Gửi phản hôi</button>
+			</div>
+		</div>
+	</footer>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="plugin/rateit.js-master/scripts/jquery.rateit.min.js"></script>
+			<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+			<script type="text/javascript" src="script/script.js"></script>
+		</body>
+		</html>

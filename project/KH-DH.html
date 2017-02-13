@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thông tin tài khoản</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="plugin/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/rateit.js-master/scripts/rateit.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style4.css">
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<div class="laptop">
+			<div class="row">
+				<div class="top-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="top-header_contacts">
+									<span><i class="fa fa-phone"></i> (84) 09121006</span>
+								</div>
+								<div class="top-header_email">
+									<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+								</div>
+								<div class="header_login">
+									<a href="" data-toggle="modal" data-target="#myModal" id="icon-user"><i class="fa fa-user"></i>
+										<span> Đăng nhập</span>
+									</a>
+									<a href="" id="ten_URS">
+										
+									</a>
+									<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													<ul class="nav nav-tabs user-password" role="tablist">
+														<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+														<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+													</ul>
+												</div>
+												<div class="modal-body">
+													<div class="tab-content">
+														<div role="tabpanel" class="tab-pane active" id="home">
+															<div class="form-horizontal">
+																<div class="form-group">
+																	<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+																	<div class="col-sm-10">
+																		<input type="email" class="form-control ten_HV" id="inputEmail3" placeholder="Email" >
+																	</div>
+																</div>
+																<div class="form-group">
+																	<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+																	<div class="col-sm-10">
+																		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<div class="checkbox">
+																			<label>
+																				<input type="checkbox"> Remember me
+																			</label>
+																		</div>
+																	</div>
+																</div>
+																<div class="form-group">
+																	<div class="col-sm-offset-2 col-sm-10">
+																		<button class="btn btn-default"
+																		data-dismiss="modal" id="sign_in">Sign in</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div role="tabpanel" class="tab-pane" id="profile">
+															<form class="form-horizontal">
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+																	<div class="col-sm-9">
+																		<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+																	<div class="col-sm-9">
+																		<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+																	</div>
+																</div>
+																<div class="row">
+																	<label for="inputEmail3" class="col-sm-3 control-label"></label>
+																	<div class="col-sm-9">
+																		<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+																	</div>
+																</div>
+
+															</form>
+														</div>
+													</div>
+
+												</div>
+
+												<div class="modal-footer" id="modal-footer.laptop">
+
+													<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+													<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-header">
+					<nav class="navbar navbar-default" id="menu-header-1">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand logo-laptop" href="#">
+									<img src="img/logo.png" class="img-responsive">
+								</a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="trangchu.html">Trang chủ</a></li>
+
+									<li class="dropdown">
+										<a ref="khoahoc.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Khóa học</a>
+										<ul class="dropdown-menu">
+											<li><a href="index.html">Web</a></li>
+											<li><a href="index.html">Di động</a></li>
+										</ul>
+									</li>
+									<li><a href="blog.html">Blog</a></li>
+									
+									<li><a href="gioithieu.html">Liên hệ</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="mobile">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false" id="icon-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<button class="search_mobile" id="search-mobile-2"><i class="fa fa-search"></i></button>
+							<div class="col-xs-12 search_mobile-0">
+								<div class="row">
+									<div class="col-xs-2 ">
+										<button class="search_mobile"><i class="fa fa-search"></i></button>
+									</div>
+									<div class="col-xs-8 input-search" >
+										<div class="form-group">
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="search">
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<button class="search_mobile" id="close-search-mobile"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+							</div>
+							<button class="shopping_mobile an_1" data-toggle="modal" data-target="#myModal2"><i class="fa fa-user " style="font-size: 23px"></i></button>
+							<div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<ul class="nav nav-tabs user-password" role="tablist">
+												<li role="presentation" class="active"><a href="#home1" aria-controls="home" role="tab" data-toggle="tab">Đăng nhập</a></li>
+												<li role="presentation"><a href="#profile1" aria-controls="profile" role="tab" data-toggle="tab">Đăng ký</a></li>
+											</ul>
+										</div>
+										<div class="modal-body">
+											<div class="tab-content">
+												<div role="tabpanel" class="tab-pane active" id="home1">
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+																<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="form-group">
+															<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+																<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<div class="checkbox">
+																	<label>
+																		<input type="checkbox"> Remember me
+																	</label>
+																</div>
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<button type="submit" class="btn btn-default">Sign in</button>
+															</div>
+														</div>
+													</form>
+												</div>
+												<div role="tabpanel" class="tab-pane" id="profile1">
+													<form class="form-horizontal">
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Email">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Mật khẩu</label>
+															<div class="col-sm-9">
+																<input type="password" class="form-control ThongTin" id="inputEmail3" placeholder="Mật khẩu" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">SĐT</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="SĐT" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Địa chỉ</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Địa chỉ">
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label">Họ tên</label>
+															<div class="col-sm-9">
+																<input type="email" class="form-control ThongTin" id="inputEmail3" placeholder="Họ tên" >
+															</div>
+														</div>
+														<div class="row">
+															<label for="inputEmail3" class="col-sm-3 control-label"></label>
+															<div class="col-sm-9">
+																<button type="submit" class="btn btn-default"> Đăng ký</button>
+
+															</div>
+														</div>
+
+													</form>
+												</div>
+											</div>
+
+										</div>
+
+										<div class="modal-footer" id="modal-footer.laptop">
+
+											<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+											<!-- 		<button type="button" class="btn btn-success">Save changes</button> -->
+
+										</div>
+									</div>
+								</div>
+							</div>	
+							<a class="navbar-brand menu-logo" href="#"><img src="img/logo.png" class="img-responsive logo"></a>
+						</div>
+						<div >
+							<ul class="nav navbar-nav" id ="menu-left">	
+								<div class="logo-item">
+									<img src="https://udemy-images.udemy.com/user/200_H/anonymous.png" class="img-responsive">
+								</div>
+								<li><a href="thongtintaikhoan.html">Tài khoản</a></li>
+								<li><a href="trangchu.html">Trang chủ</a></li>
+								<li><a href="index.html">Khóa học</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="gioithieu.html">Liên hệ</a></li>
+								<li><a href="chitiet_kh.html">Học thử</a></li>
+								<li><a href="#">Ebooks</a></li>
+							</ul>
+						</div>
+						<div id ="chanboba"></div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="container user-thongtin">
+		<div class="wrap">
+			<div class="row">
+				<div class="col-md-4 sidebar">
+					<div class="list-group">
+						<div class="list-group-item" >	
+							<div id="logo-TK">
+								<img src="img/icon.png" class="img-responsive">
+							</div>
+						</div>
+						<a href="thongtintaikhoan.html" class="list-group-item active">
+							Thông tin tài khoản
+						</a>
+						<a href="#" class="list-group-item">Thông báo</a>
+						<a href="KH-DH.html" class="list-group-item">Khóa học</a>
+						<a href="#" class="list-group-item">Lịch sử giao dịch</a>
+					</div>
+				</div>
+				<div class="col-md-8 khoahoc-my">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="thumbnail" >
+								<a href="khoahoc.html">
+									<div class="item-image">
+										<img src="https://techmaster.vn/wp-content/uploads/2015/uploads/lap-trinh-android.jpg" class="img-responsive">
+
+									</div>
+								</a>
+								<div class="item-review">
+									<h3>Lập trình Android qua 10 ứng dụng thực tế</h3>
+									<div class="teacher">
+										<p class="name-teacher">Đặng đình chiến</p>
+
+									</div>
+									<div class="item-rating">
+
+										<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+										<div class="progress">
+											<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+												<span>50/100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="khoahoc.html">
+									<div class="item-image">
+										<img src="https://techmaster.vn/fileman/Uploads/Algorithm/algorithm.jpg" class="img-responsive">
+
+									</div>
+								</a>
+								<div class="item-review">
+									<h3>Cấu trúc dữ liệu giải thuật thực tế - dễ học</h3>
+									<div class="teacher">
+										<p class="name-teacher">Nguyễn Đức Anh</p>
+
+									</div>
+									<div class="item-rating">
+										<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+										<div class="progress">
+											<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+												<span>50/100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="khoahoc.html">
+									<div class="item-image">
+										<img src="https://techmaster.vn/fileman/Uploads/HTML/HTMLCSSJS.jpg" class="img-responsive">
+
+									</div>
+								</a>
+								<div class="item-review">
+									<h3>Web cơ bản HTML5, CSS3 và Javascript</h3>
+									<div class="teacher">
+										<p class="name-teacher">Đặng đình chiến</p>
+
+									</div>
+									<div class="item-rating">
+										<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+										<div class="progress">
+											<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+												<span>50/100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="khoahoc.html">
+									<div class="item-image">
+										<img src="https://techmaster.vn/fileman/Uploads/Algorithm/algorithm.jpg" class="img-responsive">
+										
+									</div>
+								</a>
+								<div class="item-review">
+									<h3>Cấu trúc dữ liệu giải thuật thực tế - dễ học</h3>
+									<div class="teacher">
+										<p class="name-teacher">Nguyễn Đức Anh</p>
+										
+									</div>
+									<div class="item-rating">
+										<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+										<div class="progress">
+											<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+												<span>50/100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<a href="khoahoc.html">
+									<div class="item-image">
+										<img src="https://techmaster.vn/fileman/Uploads/HTML/HTMLCSSJS.jpg" class="img-responsive">
+										
+									</div>
+								</a>
+								<div class="item-review">
+									<h3>Web cơ bản HTML5, CSS3 và Javascript</h3>
+									<div class="teacher">
+										<p class="name-teacher">Đặng đình chiến</p>
+										
+									</div>
+									<div class="item-rating">
+										<div class="rateit" data-rateit-value="4" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+										<div class="progress">
+											<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+												<span>50/100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid" id="footer">
+		
+		<div class="row footer0">
+			<div class="col-md-4 contacts-footer">
+				<div class="log-footer">
+					<img src="">
+					<h2>TechMater</h2>
+				</div>
+				<span><i class="fa fa-map-marker"></i> Số 14, ngõ 4, Nguyễn Đình Chiểu, quận Hai Bà Trưng, Hà nội, Việt nam.</span><br>
+				<span><i class="fa fa-map-marker"></i> Phòng 2304, tầng 23, toà nhà Ocean Bank (StarCity), 81 Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội.</span><br>
+				<span><i class="fa fa-phone"></i> (84)09123456789</span><br>
+				<span><i class="fa fa-envelope "></i> techmater@gmail.com</span>
+			</div>
+			<div class="col-md-4 " id="lien-ket-footer">
+				<h2>Về chúng tôi</h2>
+				<a href=""><span>Giới thiệu</span></a>
+				<a href=""><span>Giang viên</span></a>
+				<a href=""><span>Câu hỏi thường gặp</span></a>
+				<a href=""><span>Chính sách bảo mật</span></a>
+			</div>
+			<div class="col-md-4 confirm-footer">
+				<h2>Gửi phản hồi</h2>
+				<input type="text" class="form-control" id="inputEmail3" placeholder="Tên">
+				<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				<textarea class="form-control" rows="3" placeholder="messeger"></textarea>
+				<button type="button" class="btn btn-info">Gửi phản hôi</button>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="plugin/rateit.js-master/scripts/jquery.rateit.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

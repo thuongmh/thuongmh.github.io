@@ -1,0 +1,239 @@
+
+.gia_KH {
+	text-align: center;
+}
+.nav-tabs>li>a {
+	padding: 8px 10px;
+}
+.tab-content {
+	padding: 20px;
+}
+.time {
+	display: none;
+}
+.mo_ta {
+	margin-top: 20px;
+} 
+.thoi_gian {
+	display: none;
+}
+.tab-pane td {
+	min-width: 100px;
+	border-bottom: 1px solid rgba(191,191,191,0.45);
+}
+.tab-pane .media a img {
+	max-width: 80px;
+}
+.mo_ta .nav-tabs li{
+	width: 25%;
+}
+.title h2 {
+	font-size: 15px;	
+	text-transform: uppercase;
+}
+.KH-lien-quan {
+	display: none;
+}
+.upper {
+	font-weight: bold;
+	font-size: 15px;
+}
+.mo_ta .tab-content ul {
+	padding-left: 15px;
+}
+.mo_ta {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+#myModal2 .modal-dialog {
+	margin-top: 20%;
+}
+#myModal2 .row {
+	padding:  10px 8px;
+}
+#myModal2 .row .col-xs-3 {
+	padding-top: 2px;
+}
+#myModal2 .row .col-xs-9 input {
+	min-height: 30px;
+	border: 1px solid gray;
+	width: 100%;
+	border-radius: 5px;
+}
+#myModal1 .modal-body ul li {
+	width: 50%;
+}
+#myModal1 .thanh_toan {
+	padding: 10px
+}
+#myModal1 .thanh_toan input {
+	margin:5px;
+	width: 100%;
+	height: 40px;
+}
+#myModal1 .modal-footer {
+	text-align: center;
+}
+.title h3 {
+	font-size: 15px;
+}
+.title h2 {
+	font-size: 18px;
+}
+.from_dangky {
+	text-align: center;
+}
+.from_dangky  .hoc-thu {
+	width: 40%;
+}
+#myModal1 .modal-header .nav-tabs li {
+	width: 45%;
+}
+#myModal1 .modal-header {
+	padding-bottom: 0px;
+	border-bottom: 0px;
+	background-color: #2d3e50;
+}
+#myModal1 .tab-content {
+	padding: 0px;
+}
+#myModal1 .tab-content .tab-pane {
+	padding: 0px;
+}
+#myModal1 .tab-content .tab-pane input {
+	margin-bottom: 10px;
+} 
+.mo_ta .col-md-8 .tieude-123 {
+	text-align: center;
+}
+@media (min-width: 860px) {
+	.KH-lien-quan {
+		display: block;
+	}
+	.from_dangky >.btn {
+		display: block;
+		width: 60%;
+		margin-bottom: 10px;
+		color: white;
+	}
+	.from_dangky  .hoc-thu {
+		width: 60%;
+	}
+	.from_dangky .hoc-thu  {
+		display: block;
+
+	}
+	.from_dangky .hoc-thu button {
+		width: 60%;
+		margin-bottom: 10px;
+		color: white;
+	}
+	.time {
+		display: block;
+	}
+	.gia_KH {
+		padding-left: 10px;
+		text-align: left
+	}
+	.title {
+		margin-top: 30px;
+	}
+	.title .dau_trang {
+		margin-bottom: 20px;
+	}
+	.title h2 {
+		font-size: 20px;
+		text-transform: uppercase;
+		padding: 10px 0px;
+	}
+	.nav-tabs>li>a {
+		padding: 8px 10px;
+	}
+	.tab-pane .media a img {
+		max-width: 80px;
+	}
+	.title .row .close {
+		color: white;
+		display: block;
+		background-color: #17aa1c;
+		width: 4%;	
+	}
+	.title .row h3 {
+		margin-bottom: 30px;
+	}
+	
+	.title .row  .ten_khoahoc {
+		padding: 20px;
+		border-bottom: 1px solid rgba(191,191,191,0.45);
+
+	}
+	.title .time {
+		padding-top: 20px;
+	}
+	.title .row .time .left {
+		display: inline-block;
+		min-width: 200px;
+	}
+	.title .row .time .right {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.title .row .time li {
+		
+		list-style-type: none;
+	}
+	.tab-pane {
+		padding: 20px;
+
+	}
+	.tab-pane td {
+		min-width: 80px;
+		font-size: 13px;
+		padding: 5px;
+		border-bottom: 1px solid rgba(191,191,191,0.45);
+	}
+	
+	.ten_khoahoc h1{
+		font-size: 30px;
+	}
+	.ten_khoahoc span {
+		text-decoration: line-through;
+	}
+	.gia_KH {
+		margin-bottom: 10px;
+	}
+	.mo_ta >.row >.col-md-4 {
+		box-shadow: 0px 5px 31px -7px;
+		padding: 0px;
+	}
+	.KH-lien-quan {
+		border: 1px solid #ccc;
+		color: black;
+		padding: 10px 10px;
+		margin: 0px;
+	}
+	.gia {
+		padding-top: 10px;
+		color: #70c989;
+	}
+	.KH-lien-quan .row .col-md-7 span {
+		font-size: 13px;
+	}
+	#myModal1 {
+		margin-top: 100px;
+	}
+	.thanh_toan input {
+		display: block;
+		width: 80%;
+		padding: 10px;
+		margin-bottom: 5px;
+	}
+	.from_dangky  .modal-footer {
+		text-align: center;
+	}
+	.from_dangky  .modal-footer button {
+		background-color: #17aa1c;
+		color: white;
+	}
+
+}
