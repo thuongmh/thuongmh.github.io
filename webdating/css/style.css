@@ -1,0 +1,906 @@
+body {
+    background: #fff;
+    color: #4C4C4C;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    position: relative;
+    cursor: auto;
+    font-size: 16px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul {
+    padding-left: 0;
+}
+li  {
+    list-style-type: none;
+}
+.text-pink {
+    color: #ff4545 ;
+}
+.button-pink {
+    background: #ff4545;
+    color: white;
+    font-size: 15px;
+}
+.button-pink:hover {
+    background: #f80000;
+    color: white;
+}
+.seach-member h1 {
+    font-family: 'Oswald', sans-serif;
+}
+/*css logo*/
+#logo {
+    display: inline-block;
+}
+#logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: #ff4545;
+}
+#logo a:hover {
+    color: #f80000;
+}
+#logo span {
+    font-size: 14px;
+}
+#header-top .login {
+    display: block;
+    margin-top: 25px;
+    font-size: 16px;
+}
+/*css main menu*/
+#main-menu {
+    background: rgba(35,34,40,0.9);
+}
+#main-menu .navbar-default {
+    background: transparent;
+    border: 0;
+    margin: 0px;
+}
+
+#main-menu .icon-menu a {
+    color: white;
+}
+#main-menu .icon-menu a:hover {
+    color: #ff4545;
+}
+#main-menu .icon-menu .a-dropdown:active, .a-dropdown:focus, .a-dropdown:visited {
+    background: rgba(35,34,40,0.9) ;
+}
+#main-menu .icon-menu .a-dropdown:focus {
+    background: rgba(35,34,40,0.9) ;
+}
+#main-menu .icon-menu .ul-dropdow {
+    background: rgba(35,34,40,0.9);
+    padding: 0;
+}
+.icon-menu a {
+    font-size: 16px;
+    border-right: 1px dotted black;
+    box-shadow: 1px 0px 1px #6f6f6f;
+}
+#search-menu {
+    display: none;
+}
+#button-search {
+    background: transparent;
+    border: 0;
+}
+#button-search i {
+    font-size: 20px;
+    color: gray;
+}
+/*css carosel*/
+#carosel .carousel-caption {
+    position: absolute;
+    top: 35%;
+}
+#carosel {
+    position: relative;
+}
+#carosel .item {
+    overflow: hidden;
+}
+#carosel .item img {
+    width: 100%;
+}
+/*css tuy chọn*/
+
+#tuy-chon {
+    padding: 20px 40px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.71);
+}
+#tuy-chon select {
+    font-size: 16px;
+}
+#tuy-chon .form-group {
+    margin-right: 15px;
+}
+#tuy-chon .form-group label {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#tuy-chon .form-group .search-select {
+    border-radius: 0px;
+    background: #f3f3f3;
+}
+#tuy-chon .form-search {
+    background: white;
+    padding: 15px 15px;
+    border-radius: 4px;
+}
+
+/*css content*/
+.title-h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #210f07;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+#welcome {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#welcome .thumbnail img {
+    border-radius: 50%;
+
+}
+#welcome .thumbnail {
+    border: 0;
+    padding: 70px;
+}
+#welcome .thumbnail {
+    font-size: 18px;
+}
+
+/*css blog*/
+.blog-mobile {
+    display: none;
+}
+.blog-desktop {
+    display: block;
+}
+.heart-blog {
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    height: 80px;
+    width: 82px;
+    background: url(../images/heart.png) no-repeat;
+}
+.heart-blog span {
+    display: block;
+    margin-top: 38px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+#blog {
+    padding: 50px 0;
+    background: #eeeeee;
+}
+#blog .item-conten-rls , .img-conten-rls {
+        border: 1px solid gainsboro;
+    height: 261px;
+    padding: 0px;
+}
+#blog .img-conten-rls img {
+    width: 100%;
+    height: 259px;
+}
+#blog .item-conten-rls p {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+#blog .item-conten-rls h3 {
+    font-weight: 500;
+    color:#210f07 ;
+}
+.blog-item-top .img-conten-rls:after {
+    left: 0;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255,255,255,0);
+    border-left-color: #FFF;
+    border-width: 20px;
+    margin-top: -20px;
+    z-index: 5;
+
+}
+#blog .img-conten-rls:after {
+}
+#blog .content-col-4 {
+    height: 259px;
+    padding: 15px 20px;
+    border: 1px solid gainsboro;
+}
+.blog-right img {
+    width: 100%;
+}
+.blog-right .img-col-4 {
+    position: relative;
+}
+.blog-right .img-col-4:after {
+    top: 0px;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255,255,255,0);
+    border-top-color: #ffffff;
+    border-width: 20px;
+    margin-left: -20px;
+    z-index: 5;
+}
+.blog-item-bottom .img-conten-rls:after {
+    right: 0;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255,255,255,0);
+    border-right-color: #FFF;
+    border-width: 20px;
+    margin-top: -20px;
+    z-index: 5;
+}
+#blog .ovelay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    background: rgba(14, 14, 14, 0.52);
+    opacity: 0;
+    transition: all .5s ease 0s
+}
+#blog .img-blog-index {
+    display: block;
+}
+#blog .img-blog-index:hover .ovelay {
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+#blog .img-blog-index:hover span {
+    top: 35%;
+    opacity: 1;
+    transition: all .7s ease 0s;
+}
+.ovelay span {
+    position: absolute;
+    top:-50%;
+    left: 40%;
+    padding: 18px;
+    border-radius: 50%;
+    border: 3px solid white;
+    color: white;
+    opacity: 0;
+    background: rgba(152, 131, 131, 0.64);
+}
+/*css member*/
+#member {
+    padding: 50px 0;
+}
+.new-member img {
+    padding: 30px 70px;
+    border-radius: 50%;
+}
+.new-member .caption {
+    padding: 0px;
+}
+
+.new-member .caption span {
+    display: inline-block;
+    width: 49%;
+    padding: 15px 0;
+    background: #eeeeee;
+}
+.like-folow {
+    margin: 0px;
+}
+.like-folow a {
+    color: #4C4C4C;
+}
+#tab-blog {
+    margin: auto;
+    /*width: 245px;*/
+    margin-bottom: 50px;
+    display: inline-block;
+
+}
+#tab-blog .active a {
+    background: gainsboro;
+}
+#tab-blog .active:after {
+    position: absolute;
+    bottom: -24%;
+    left: 42%;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: gainsboro transparent transparent transparent;
+}
+#tab-blog li {
+    border: 1px solid gainsboro;
+    display: inline-block;
+}
+#tab-blog  li a {
+    border: 0;
+}
+.member-slide .nav-tabs li a {
+    margin-right: 0px;
+}
+#tab-blog li a {
+    color: #7c736f;
+}
+/*css nhóm chat*/
+#group {
+    padding: 50px 0;
+    background: #eeeeee;
+}
+
+#group #group_chat .thumbnail {
+    padding: 0;
+}
+#group #group_chat .thumbnail img {
+    width: 270px;
+}
+#group_chat .caption > h4 i{
+    color: #ff4545;
+}
+#group .item--member .thumbnail:hover .heart-blog {
+    top:40%;
+    transition: all .5s ease;
+}
+/*css danh ngôn*/
+
+.image-danh-ngon {
+    width: 120px;
+    margin: auto;
+    border-top:1px solid gainsboro;
+    margin-top: 15px;
+    padding-top: 15px;
+
+}
+.image-danh-ngon img {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+#danh-ngon .title h4 {
+    color: #ff4545;
+}
+#danh-ngon {
+    padding: 50px 0;
+}
+/*css footer*/
+#footer {
+    padding: 20px 150px;
+    background: #232228;
+}
+#footer .icon-contact {
+    padding-left: 0px;
+}
+#footer .icon-contact li {
+    display: inline-block;
+    padding: 10px;
+}
+#footer ul {
+    padding-left: 0px;
+}
+#footer li {
+    list-style-type: none;
+}
+#footer #flickr a {
+    color: #e04b34;
+}
+#footer #facebook a{
+    color: #435f9f;
+}
+#footer #twitter a {
+    color: #00aaf0;
+}
+#footer li a {
+    color: #959595;
+}
+#footer li a:hover {
+    color: #ff4545;
+}
+.col-footer {
+    margin-bottom: 20px;
+}
+.menu-footer {
+    padding-top: 20px;
+    border-top: 1px solid gainsboro;
+}
+
+.menu-footer ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+/*css page member*/
+.seach-member h1 {
+    display: inline-block;
+}
+.seach-member .form-inline {
+    display: inline-block;
+    padding: 26px 0;
+}
+.title-member-all {
+    background: #eee;
+    padding-left: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#member-page {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#member-page .item--member .thumbnail{
+    padding: 0;
+}
+#member-page .item--member .thumbnail .img-item-member {
+    padding: 15%;
+    padding-bottom: 0;
+}
+#member-page .item--member .thumbnail img {
+    border-radius: 50%;
+}
+.seach-member-page {
+    padding: 15px 0;
+    padding-left: 15px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.item--member .thumbnail .like-folow span{
+    display: inline-block;
+    width: 45%;
+    background: #eee;
+    padding: 10px 0;
+}
+ .content-sidebar .tab-content .img-item-photo {
+    padding: 5px;
+}
+ .content-sidebar .tab-content .row {
+    margin: 0px;
+}
+#sidebar {
+    padding-left: 20px;
+}
+#sidebar .xem-nhieu {
+    padding: 20px 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+#member-page ul {
+    padding-left: 0px;
+}
+#member-page ul li {
+    list-style-type: none;
+}
+#member-page #sidebar .group-member-page {
+    margin-top: 30px;
+}
+.chuyen-trang ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.chuyen-trang ul li:hover {
+    display: inline-block;
+
+    background-color: #ff4545;
+    color: white;
+}
+
+/*css group*/
+#group-page {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#group-page .item--member .thumbnail {
+    padding: 0;
+}
+#group-page .item--member .thumbnail image {
+    border-radius: 0;
+}
+ .item--member .thumbnail .caption h4 i{
+    color: #ff4545;
+}
+ #group-page .heart-blog {
+     top: 36%;
+ }
+#group-page .item--member .thumbnail:hover .heart-blog {
+    top:32%;
+    transition: all .5s ease;
+}
+/*css profile*/
+
+#main-menu-profile {
+    background: url("../images/bg-profile.jpg");
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+#main-menu-profile .main-profile-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#main-menu-profile .main-profile-page .navbar-default {
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.71);;
+    border: 0;
+}
+#main-menu-profile .navbar-nav li a {
+    color: white;
+    font-size: 15px;
+}
+#main-menu-profile .navbar-collapse {
+    padding-left: 0px;
+}
+#main-menu-profile .navbar-nav li {
+    border-right: 1px solid black;
+    box-shadow:  1px 0px 1px gray;
+}
+.avatar img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+.avatar {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    color: #38373d;
+}
+#dong-thoi-gian {
+    padding: 50px 0;
+}
+.group-member-page {
+    margin-top: 40px;
+}
+#dong-thoi-gian .profile-left li {
+    position: relative;
+    border-top:1px solid gainsboro;
+    padding: 20px 0;
+    padding-left: 100px;
+}
+#dong-thoi-gian .icon-timeline {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    background-color: #eee;
+    height: 40px;
+    width: 40px;
+    margin: 11px auto;
+    border-radius: 50%;
+}
+#dong-thoi-gian .timeline:before {
+    background: #eee;
+    content: '';
+    height: 100%;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+#dong-thoi-gian .timeline span {
+    margin-top: 14px;
+}
+#dong-thoi-gian .media-body img {
+    max-width: 400px;
+}
+#dong-thoi-gian #profile .hang-profile {
+    margin-bottom: 15px;
+}
+#dong-thoi-gian #profile form img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#dong-thoi-gian #profile .button-pink {
+    width: 100px;
+    margin: auto;
+}
+#dong-thoi-gian #group-profile .heart-blog {
+    top:35%;
+}
+#dong-thoi-gian #group-profile .item--member .thumbnail:hover .heart-blog {
+    top:32%;
+    transition: all .5s ease;
+}
+/*css blog page*/
+#blog-page {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#blog-page .item-blog-page .thumbnail {
+    padding: 0px;
+}
+#blog-page .item-blog-page {
+    padding-bottom: 20px;
+}
+#blog-page .item-blog-page .thumbnail .tac-gia span {
+    display: inline-block;
+    margin-left: 15px;
+}
+#blog-page .item-blog-page .thumbnail .tac-gia i {
+    color: #989090;
+}
+#blog-page .item-blog-page .thumbnail .tac-gia p {
+    display: inline-block;
+    padding-left: 10px;
+}
+#contact form {
+    margin-top: 70px;
+}
+.send-tin-nhan {
+    color: #4C4C4C;
+}
+#login-dkm {
+    position: relative;
+    display: block;
+}
+.login-content {
+    display: none;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    padding: 15px;
+    background-color: #38373d;
+    max-width: 300px;
+    color: white;
+    z-index: 10;
+}
+#login-form .form-group input {
+    background: transparent;
+    color: white;
+}
+.bt-face {
+    background-color: #23527c;
+    border-color: #3b5998;
+    color: white;
+}
+.bt-gole {
+    background: #df4a32;
+    border-color: #df4a32;
+    color: white;
+}
+#login-form .login-content button {
+    margin-top: 10px;
+}
+.register-body {
+    padding: 20px 60px;
+}
+.modal-login .modal-content {
+    background-color: #38373d;
+    color: white;
+}
+.modal-login .modal-content input {
+    background: transparent;
+    color: white;
+}
+/*css trang cá nhân*/
+#main-menu-profile .main-profile-page {
+
+}
+
+/*css chat*/
+.noidung-chat {
+    height: 700px;
+    background: whitesmoke;
+    overflow: scroll;
+    padding: 50px 40px;
+}
+#dong-thoi-gian .noidung-chat ul li {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    border: 0;
+}
+
+#dong-thoi-gian #chat .all-member-chat li {
+    padding: 10px;
+}
+#dong-thoi-gian #chat .all-member-chat li i {
+    display: inline-block;
+    padding-right: 10px;
+}
+#dong-thoi-gian #chat .all-member-chat .user-online i {
+    color: #00aaf0;
+}
+#dong-thoi-gian #chat .all-member-chat {
+    height: 500px;
+    overflow-y: scroll;
+}
+#chat form {
+    margin-top: 30px;
+}
+.main-profile-page .navbar-nav li .icon-menu-page{
+    border: 0;
+}
+#main-menu-profile .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    border: 0;
+    background: transparent;
+    color: #ff4545;
+}
+/*css shop */
+#shop {
+    padding: 50px 0;
+}
+#shop .thumbnail img {
+    width: 100%;
+}
+
+#input-chat {
+    width: 86%;
+    display: inline-block;
+}
+.input-chat {
+    margin-top: 10px;
+}
+/*css blog chi tiết*/
+#chitiet-blog {
+    padding: 50px 0;
+}
+.comment {
+    margin-top: 30px;
+    border-top: 2px solid gainsboro;
+}
+.submit-comment {
+    margin-top: 20px;
+}
+.comment .body-comment {
+    padding-left: 30px;
+}
+.comment .body-comment .item-comment {
+    margin-top: 20px;
+}
+.submit-comment {
+    padding-left: 30px;
+}
+.icon-tacgia-blog span{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.icon-tacgia-blog {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 480px) {
+    #tuy-chon {
+        display: none;
+    }
+    #welcome .row .thumbnail {
+        padding: 0px;
+    }
+    #welcome .row .thumbnail img {
+        width: 150px;
+        height: 150px;
+    }
+    #group {
+        display: none;
+    }
+    #footer {
+        padding: 50px;
+    }
+    #danh-ngon {
+        padding: 30px;
+    }
+    #member .thumbnail {
+        margin: 40px;
+    }
+    #danh-ngon {
+        background: #eeeeee;
+    }
+    .login-content {
+        width: 300px;
+        right: 14px;
+    }
+    #dong-thoi-gian .media-body img {
+         max-width: 210px;
+    }
+    .main-profile-page .container {
+        padding: 0px;
+    }
+    .main-profile-page .item-menu-profile {
+        width: 16% ;
+    }
+    .main-profile-page .item-menu-profile a {
+        display: block;
+        text-align: center;
+        padding:5px;
+        font-size: 11px;
+    }
+    #main-menu-profile .navbar-default {
+        padding: 0 10px;
+    }
+    #main-menu-profile .navbar-default ul {
+        margin-left: 10px;
+    }
+    .item--member .thumbnail .like-folow span {
+        width: 48%;
+    }
+    #dong-thoi-gian  #group-profile img {
+        width: 100%;
+    }
+    #main-menu .navbar-right .form-group {
+        display: inline-block;
+        width: 80%;
+    }
+    #main-menu .navbar-right form {
+        padding: 10px 45px;
+    }
+    .blog-mobile {
+        display: block;
+    }
+    .blog-desktop {
+        display: none;
+    }
+    .seach-member form {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .seach-member .form-group {
+        width: 80%;
+        display: inline-block;
+    }
+    .seach-member .form-inline {
+        padding: 0;
+    }
+    .seach-member form .form-group {
+        width: 75%;
+        display: inline-block;
+    }
+    .item--member .thumbnail img {
+        width: 100%;
+    }
+    #chat #input-chat {
+        width: 83%;
+    }
+    #shop {
+        padding: 20px;
+    }
+    #dong-thoi-gian #group-profile .heart-blog {
+        top:52%;
+        left: 39%   ;
+    }
+    #group-page .heart-blog {
+        top: 52%;
+        left: 39%;
+    }
+}
